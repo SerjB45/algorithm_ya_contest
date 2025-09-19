@@ -29,7 +29,7 @@ def main():
     averages.append(total_sum / k)
 
     # Скользящее окно
-    for i in range(k, len(q)):
+    for i in range(k, n):
         total_sum -= q[i-k]
         total_sum += q[i]
         averages.append(total_sum / k)
