@@ -68,8 +68,6 @@ def sorted_by_template_2(n_lst, lst, n_sort, template):
 
     return res
 
-# TODO сделать более оптимизированное или другое решение
-
 
 if __name__ == '__main__':
     main()
